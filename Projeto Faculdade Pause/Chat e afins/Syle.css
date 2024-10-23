@@ -1,0 +1,477 @@
+.light-mode-default {
+    background-color:#baf3eb;
+    font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            color: #f7f4f4;
+  }
+  
+  .light-mode-default .div {
+    background-color: #f6faf9cb;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .light-mode-default .message-box {
+    position: absolute;
+    width: 1071px;
+    height: 1089px;
+    top: -5px;
+    left: 849px;
+    background-color: var(--light-3);
+    overflow: hidden;
+  }
+  
+  .light-mode-default .top-base {
+    position: absolute;
+    width: 1104px;
+    height: 119px;
+    top: 5px;
+    left: -6px;
+    background-color: #a112da42;
+  }
+  
+  .light-mode-default .ri-more-fill {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 40px;
+    left: 1015px;
+  }
+  
+  .light-mode-default .profile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23.47px;
+    position: absolute;
+    top: 13px;
+    left: 39px;
+  }
+  
+  .light-mode-default .unsplash {
+    position: relative;
+    width: 83px;
+    height: 83px;
+  }
+  
+  .light-mode-default .frame {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .light-mode-default .text-wrapper {
+    width: 322.55px;
+    height: 46.31px;
+    margin-top: -0.30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #0e0e0e;
+    font-size: 28.7px;
+    line-height: 45.6px;
+    position: relative;
+    letter-spacing: 0;
+    white-space: nowrap;
+    left: -50px;
+  }
+  
+  .light-mode-default .text-wrapper-2 {
+    position: relative;
+    width: 322.55px;
+    height: 46.31px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+    left: -100px;
+  }
+  
+  .light-mode-default .calls {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 36px;
+    left: 804px;
+  }
+  
+  .light-mode-default .left-person {
+    position: absolute;
+    width: 743px;
+    height: 169px;
+    top: 130px;
+    left: 44px;
+  }
+  
+  .light-mode-default .message {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .light-mode-default .unsplash-rdeovtevos {
+    position: relative;
+    width: 71px;
+    height: 71px;
+  }
+  
+  .light-mode-default .div-wrapper {
+    display: inline-flex;
+    gap: 10px;
+    padding: 17px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #a112da42;
+    border-radius: 0px 41.59px 41.59px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .light-mode-default .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.73px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28.6px;
+    letter-spacing: 0;
+    line-height: 45.3px;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .message-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+  }
+  
+  .light-mode-default .img {
+    position: relative;
+    width: 71px;
+    height: 71px;
+    margin-bottom: -21.00px;
+    margin-left: -2856.00px;
+  }
+  
+  .light-mode-default .message-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 17px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #a112da42;
+    border-radius: 0px 41.595px 41.595px 41.595px;
+  }
+  
+  .light-mode-default .right-person {
+    position: absolute;
+    width: 735px;
+    height: 79px;
+    top: 1000px;
+    right:32px;
+    transform: rotate(180deg);
+  }
+  
+  .light-mode-default .bottom-base {
+    position: absolute;
+    width: 1071px;
+    height: 83px;
+    top: 1001px;
+    left: -1px;
+    background-color: #a112da42;
+  }
+  
+  .light-mode-default .overlap-group {
+    position: relative;
+    width: 1009px;
+    height: 62px;
+    top: 11px;
+    left: 13px;
+  }
+  
+  .light-mode-default .text-wrapper-3 {
+    position: absolute;
+    top: 8px;
+    left: 97px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #080000;
+    font-size: 28.6px;
+    letter-spacing: 0;
+    line-height: 45.3px;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .group {
+    position: absolute;
+    width: 1009px;
+    height: 62px;
+    top: 0;
+    left: 0;
+  }
+  
+  .light-mode-default .ri-attachment {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 0;
+    left: 0;
+  }
+  
+  .light-mode-default .ri-send-plane-fill {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 3px;
+    left: 955px;
+  }
+  
+  .light-mode-default .message-list-w {
+    position: absolute;
+    width: 517px;
+    height: 441px;
+    top: 5px;
+    left: 331px;
+  }
+  
+  .light-mode-default .messages-list {
+    display: inline-flex;
+    flex-direction: column;
+    height: 441px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 49px;
+    padding: 20px 11px 0px;
+    position: relative;
+    background-color: #86f1e32d;
+    overflow: hidden;
+  }
+  
+  .light-mode-default .mensagens {
+    position: center;
+    width: 388px;
+    height: 53px;
+    margin-top: -24.50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #181a1c;
+    font-size: 25.9px;
+    letter-spacing: 8.81px;
+    line-height: 41.1px;
+  }
+  
+  .light-mode-default .message-list {
+    display: inline-flex;
+    flex-direction: column;
+    height: 366px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .light-mode-default .msg {
+    position: relative;
+    width: 495px;
+    height: 143px;
+  }
+  
+  .light-mode-default .frame-2 {
+    display: flex;
+    width: 495px;
+    gap: 30px;
+    padding: 30px 22px;
+    position: relative;
+    background-color: var(--dark-3);
+    border-radius: 6px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .light-mode-default .name-message {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .light-mode-default .text-wrapper-4 {
+    width: 307px;
+    height: 34px;
+    margin-top: -1.00px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 25px;
+    line-height: 39.6px;
+    position: relative;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .text-wrapper-5 {
+    width: 307px;
+    height: 34px;
+    margin-top: -1.00px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: var(--dark-2);
+    font-size: 25px;
+    line-height: 39.6px;
+    position: relative;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .overlap {
+    position: absolute;
+    width: 263px;
+    height: 826px;
+    top: 243px;
+    left: 34px;
+  }
+  
+  .light-mode-default .left-side {
+    position: absolute;
+    width: 263px;
+    height: 826px;
+    top: 0;
+    left: 0;
+  }
+  
+  .light-mode-default .clicked-options {
+    position: absolute;
+    width: 270px;
+    height: 88px;
+    top: 331px;
+    left: 8px;
+  }
+  
+  .light-mode-default .unclicked-options {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    position: absolute;
+    top: 741px;
+    left: 0;
+  }
+  
+  .light-mode-default .settings {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .light-mode-default .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .light-mode-default .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 25px;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .night-mode {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .light-mode-default .toggle {
+    position: relative;
+    width: 32px;
+    height: 15.54px;
+    background-color: #0d0e0d;
+    border-radius: 7.77px;
+  }
+  
+  .light-mode-default .ellipse {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    top: 3px;
+    left: 3px;
+    background-color: #00e1ff;
+    border-radius: 5.49px;
+  }
+  
+  .light-mode-default .unsplash-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 43px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .light-mode-default .unsplash-syhuhseut {
+    position: relative;
+    width: 166px;
+    height: 166px;
+  }
+  
+  .light-mode-default .text-wrapper-7 {
+    position: absolute;
+    top: 186px;
+    left: 48px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .light-mode-default .logo {
+    position: absolute;
+    width: 327px;
+    height: 119px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tela de Chat</title>
+    <style>
+        .zoom {
+            transform: scale(0.55);
+            transform-origin: top center;
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="light-mode-default">
+        <div class="div zoom" id="zoomable">
+            <div class="message-box">
+                <div class="top-base">
+                    <img class="ri-more-fill" src="dois pontos.png" alt="Mais opções" />
+                    <div class="profile">
+                        <img class="unsplash" src="gostaram.png" alt="Perfil do voluntário" />
+                        <div class="frame">
+                            <div class="text-wrapper">VOLUNTÁRIO 1</div>
+                            <div class="text-wrapper-2">ONLINE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-person">
+                    <div class="message">
+                        <img class="unsplash-rdeovtevos" src="gostaram.png" alt="Perfil" />
+                        <div class="div-wrapper">
+                            <p class="p">Olá, seja bem-vindo ao Pause!</p>
+                        </div>
+                    </div>
+                    <div class="message-2">
+                        <div class="message-3">
+                            <p class="p">Em que posso te ajudar no dia de hoje?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-person"></div>
+                <div class="bottom-base">
+                    <div class="overlap-group">
+                        <div class="text-wrapper-3">Escreva a sua mensagem...</div>
+                        <div class="group">
+                            <div class="ri-attachment"></div>
+                            <img class="ri-send-plane-fill" src="mandar mensagem.png" alt="Enviar mensagem" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="message-list-w">
+                <div class="messages-list">
+                    <div class="mensagens">MENSAGENS</div>
+                    <div class="message-list">
+                        <div class="msg">
+                            <div class="frame-2">
+                                <img class="unsplash" src="gostaram.png" alt="Perfil do voluntário 1" />
+                                <div class="name-message">
+                                    <div class="text-wrapper-4">VOLUNTÁRIO 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="frame-2">
+                                <img class="unsplash" src="volun.png" alt="Perfil do voluntário 2" />
+                                <div class="name-message">
+                                    <div class="text-wrapper-5">VOLUNTÁRIO 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlap">
+                <div class="left-side">
+                    <img class="clicked-options" src="clicked-options.png" alt="Opções" />
+                    <div class="unclicked-options">
+                        <div class="settings">
+                            <img class="img-2" src="config.png" alt="Configurações" />
+                            <div class="text-wrapper-6">Configurações</div>
+                        </div>
+                        <div class="night-mode">
+                            <img class="img-2" src="modo noturno.png" alt="Modo Noturno" />
+                            <div class="text-wrapper-6">Modo Noturno</div>
+                            <div class="toggle">
+                                <div class="ellipse"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unsplash-wrapper">
+                        <img class="unsplash-syhuhseut" src="usuario.png" alt="Usuário" />
+                    </div>
+                </div>
+            </div>
+            <img class="logo" src="logoo.png" alt="Logo" />
+        </div>
+    </div>
+
+    <script>
+        function setZoom(level) {
+            document.getElementById('zoomable').style.transform = scale(${level});
+        }
+
+        setZoom(0.55);
+    </script>
+</body>
+</html>
